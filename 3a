@@ -6,7 +6,6 @@ int min(int a, int b) {
     else
         return b;
 }
-
 void floyds(int p[10][10], int n) {
     int i, j, k;
     for (k = 1; k <= n; k++)
